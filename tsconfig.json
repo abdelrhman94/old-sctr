@@ -64,9 +64,10 @@
     ".next/types/**/*.ts",
     "build/development/types/**/*.ts",
     "build/production/types/**/*.ts",
+    "build/staging/types/**/*.ts",
     "build/testing/types/**/*.ts",
     "next-env.d.ts",
-    "build/staging/types/**/*.ts"
+    "build/undefined/types/**/*.ts"
   ],
   "exclude": [
     "node_modules"
