@@ -1,0 +1,11 @@
+@custom-variant dark (&:is(.dark *));
+
+@layer base {
+  * {
+    @apply border-border outline-ring/50;
+  }
+  body {
+    font-family: var(--font-poppins), sans-serif;
+    @apply bg-background text-foreground;
+  }
+}
